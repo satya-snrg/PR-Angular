@@ -16,7 +16,7 @@ const routes: Routes = [
 // configures NgModule imports and exports
 @NgModule({
   declarations: [ 
-    AboutUsComponent, ContactUsComponent, HomeComponent
+   
   ],
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
