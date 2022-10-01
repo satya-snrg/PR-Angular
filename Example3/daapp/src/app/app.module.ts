@@ -9,9 +9,12 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { UsersListComponent } from './users-list/users-list.component';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { GuestDashboardComponent } from './guest-dashboard/guest-dashboard.component';
+import { LogoutComponent } from './logout/logout.component';
 @NgModule({
   declarations: [
-    AppComponent,AboutUsComponent,ContactUsComponent, HomeComponent, LoginComponent, RegisterComponent, UsersListComponent
+    AppComponent,AboutUsComponent,ContactUsComponent, HomeComponent, LoginComponent, RegisterComponent, UsersListComponent, AdminDashboardComponent, GuestDashboardComponent, LogoutComponent
   ],
   imports: [
     BrowserModule,
