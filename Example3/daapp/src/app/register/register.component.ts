@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
 
+
+  isFormSubmitted = false;
   user ={name:'',email: '',phone: '', pwd:''};
 
   constructor() {
@@ -17,8 +19,7 @@ export class RegisterComponent implements OnInit {
   }
 
   submitForm(){
-    //todo submit values to server
-    console.log(this.user);
-    alert("form submitted");
-  }
+    this.isFormSubmitted = true;
+  
+ }
 }
